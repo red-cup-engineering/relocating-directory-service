@@ -1,0 +1,27 @@
+{
+  "name": "@red-cup-engineering/relocating-directory-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Atomically relocates one directory without merging or overwriting.",
+  "bin": {
+    "relocate-directory": "./scripts/relocate-directory.mjs"
+  },
+  "exports": "./scripts/relocate-directory.mjs",
+  "scripts": {
+    "check": "node --check scripts/relocate-directory.mjs",
+    "verify": "npm run check"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/relocating-directory-service.git"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
